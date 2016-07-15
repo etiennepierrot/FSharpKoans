@@ -18,7 +18,140 @@ module ``about the order of evaluation`` =
 
         let result = add (add 5 8) (add 1 1)
 
-        AssertEquality result __
+        AssertEquality result 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         (* TRY IT: What happens if you remove the parenthesis?*)
 
@@ -32,4 +165,4 @@ module ``about the order of evaluation`` =
 
         let result = double <| add 5 8
 
-        AssertEquality result __
+        AssertEquality result 26
